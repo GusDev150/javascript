@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interagindo com o Usuário</title>
+    <style>
+        body {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        button {
+            padding: 20px;
+            font-size: 12pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com dados</h1>
+    <button onclick="lernome()">Clique aqui!</button>
+    <script>
+        function lernome(){
+            let nome = String(window.prompt('Qual é o seu nome?'))
+            // Só um símbolo de = vamos ler sempre como "RECEBE"
+            window.alert(`Olá, ${nome}! Prazer em te conhecer!`)
+            /*
+            Quando usamos aspas, estamos criando template strings
+            O nome disso aqui ${} é placeholder
+            O placeholder só vai funcionar dentro de template string
+            */
+        }
+    </script>
+</body>
+</html>
