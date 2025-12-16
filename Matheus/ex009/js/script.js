@@ -2,7 +2,7 @@ var obj = {
     Nome: 'Gustavo',
     Idade: 16,
     EstadoCivil: 'Solteiro',
-    estaTrabalhando: false,
+    EstaTrabalhando: false,
 }
 
 console.log(obj)
@@ -12,7 +12,7 @@ console.log(typeof obj)
 console.log(obj.Nome)
 console.log(obj.Idade)
 console.log(obj.EstadoCivil)
-console.log(obj.estaTrabalhando)
+console.log(obj.EstaTrabalhando)
 
 console.log(`O meu nome é ${obj.Nome}!`)
 
