@@ -19,9 +19,10 @@ while(x <= 5) {
 var arr = ['teste', 'testando', 'a', 'b']
 var y = 0
 
-while(y <= 3) {
+while(y < 4) {
+    
     console.log(arr[y])
-    y += 1 
+    y++
 }
 
 
@@ -34,4 +35,4 @@ while(i < 7){
     console.log(palavra[i])
 
     i += 1
-}
+} 
