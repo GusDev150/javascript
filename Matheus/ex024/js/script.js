@@ -1,23 +1,33 @@
-var lista = ['Laranja', 'Maçã', 'Pera', 'Jaca', 'Limão']
+// No JavaScript podemos tr vários escopos
+// O global, que é iniciado em toda a aplicação
+// E os locais, que podem existir em várias instruções como as funções
 
-var listaUl = document.createElement('ul')
+var x = 1
 
-var body = document.getElementsByTagName('body')
+var y = 3
 
-console.log(body[0])
+console.log(x, y)
 
-body[0].appendChild(listaUl)
+function teste() {
+    var z = 0
 
-var listaNoBody = document.getElementsByTagName('ul')
-
-console.log(listaNoBody[0])
-
-for(var i = 0; i < lista.length; i++) {
-    var liFor = document.createElement('li')
-
-    var textoLi = document.createTextNode(lista[i])
-
-    liFor.appendChild(textoLi)
-
-    listaNoBody[0].appendChild(liFor)
+    console.log(z)
+    console.log(x)
 }
+
+teste()
+
+
+function testando() {
+    var z = 5
+
+    console.log(z)
+}
+
+testando()
+
+if (true) {
+    var p = 1
+}
+
+console.log(p)
