@@ -1,3 +1,7 @@
+// Na verdade os arrays são considerados objets em JavaScript, porém servem como listas
+// Podemos ter itens de qualquer tipo de dado também
+// Porém não por chave e valor, e sim por índice
+
 var arr = [5, 'Matheus', true, {teste: 1, teste: 2}] // obj => {}
 
 console.log(arr)

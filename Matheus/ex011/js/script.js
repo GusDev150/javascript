@@ -1,3 +1,7 @@
+// São instruçõe que podem determinar o fluxo de uma aplicação
+// Amplamentes utlizados, deixam os softwares dinâmicos
+// Exemplos são: if, else if, else
+
 var idade = 16
 var idadeMinima = 18
 

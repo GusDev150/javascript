@@ -1,3 +1,7 @@
+// São comumente utilizados para verificação nas estruturas de condição
+// Temos os seguintes operadores: ==, !=, >, <, >=, <=
+// A partir de uma expressão de comparação podemos obter um true ou false
+
 var idade = 19
 var possuiCarro = 0
 

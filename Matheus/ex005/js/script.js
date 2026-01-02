@@ -1,3 +1,7 @@
+// No JavaScript temos diversos tipos de dados, os mais comuns e utilizamos são:
+// Numeber, String, Boolean, null e undefined, Object
+// Podemos verificar o typo de dado com o operador typeof
+
 var numero = 5
 
 console.log(typeof numero)

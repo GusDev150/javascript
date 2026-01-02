@@ -1,3 +1,8 @@
+// String é o tipo de dado para textos
+// As strings podem ser escritas com aspas simples e duplas
+// Um número entre aspas pode ser considerado uma string
+// É possível também concatenar strings com o +
+
 var nome = 'Matheus'
 var sobrenome = 'Silva'
 

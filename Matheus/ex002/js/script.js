@@ -1,1 +1,1 @@
-console.log('Este é o scrpt no head!');
+console.log('Este é o script no head!');

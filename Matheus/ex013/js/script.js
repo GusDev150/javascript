@@ -1,3 +1,8 @@
+// Caso a instrução de if seja negativa, podemos adicionar else
+// Que será a outra condicional a ser executada
+// Podemos então criar uma bifurcação no código
+// Já o else if tem a possibilidade de fazer outra verificação e adicionar mais um bloco de código
+
 var nome = 'Gustavo'
 
 if (nome == 'Romário') {

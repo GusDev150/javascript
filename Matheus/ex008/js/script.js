@@ -1,3 +1,7 @@
+// Undefined e null também são considerados tipos de dados
+// O null é um tipo de dado que representa um valor 
+// O undefined é um tipo de dado para uma variável com valor não atribuído
+
 // Hoisting - içamento de variáveis
 console.log(nome)
 console.log(sobrenome)

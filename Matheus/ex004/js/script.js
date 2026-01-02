@@ -1,3 +1,8 @@
+// As variáveis armazenam valores
+// Estes valores podem ser utilizados posteriorente
+// No JavaScript é posspivel criar varíaveis de 3 formas
+// Podemos mudar o tipo da variável livremente (tipagem fraca)
+
 var teste = 'Gustavo'
 
 console.log(teste)

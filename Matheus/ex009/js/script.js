@@ -1,3 +1,7 @@
+// Funcionam como um array associatico de outras linguagens
+// Podemos criar propriedades com chave e valor
+// A ideia é guardar um conjunto de valores para utilizar posteriormente
+
 var obj = {
     Nome: 'Gustavo',
     Idade: 16,

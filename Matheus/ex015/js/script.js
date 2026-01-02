@@ -1,3 +1,8 @@
+// Nas linguagens de programação exisem os operadores lógicos
+// Estes operadores realizam comparações para que seja retornado um true ou false
+// Decidindo então o fluxo da aplicação
+// Utilizando principalmente nas intruções de condição e repetição, em conjunto dos operadores de comparação
+
 var idade = 16
 var nome = 'Gustavo'
 

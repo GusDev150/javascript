@@ -1,3 +1,6 @@
+// Dois outros operadores de comparação existem no JavaScript: === e !==
+// A função é comparar valor e tipo de dado
+
 var numero = 5
 
 if (numero === 5) {
